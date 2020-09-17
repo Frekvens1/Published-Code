@@ -11,5 +11,5 @@ Displays which global IP initiated ping with timestamp (Local shows as router IP
 * Reliable to check for power outages.
 * Great portforwarding testing tool.
 * Change listening port with '-p {port}' (-p 42) in arguments.
-* Shows which global IP pinged (Can be turned off with ' -d false '.
+* Shows which global IP pinged (Can be turned off with '-d false'.
 * Created in C# with .NET Framework 4.7.2
