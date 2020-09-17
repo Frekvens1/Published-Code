@@ -15,7 +15,7 @@ namespace IsAlive
              * USAGE:
              *
              * -p {port} -d {true/false}
-             * -p : Port, -d : Display pinger
+             * -p : Port, -d : Display ping origin
              * 
              */
 
