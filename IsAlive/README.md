@@ -1,8 +1,12 @@
 ![IsAlive Logo](https://raw.githubusercontent.com/Frekvens1/Published-Code/master/IsAlive/IsAlive.png)
 
-Simple software to tell if computer is running or not, or to test if portforwarding works. Uses the TCP protocol.
+Simple software which accepts TCP pings.
 
-Extra:
-* Created in C# with .NET Framework 4.7.2
-* Console based
+Interesting facts:
+* Console based.
 * Runs on all platforms with .NET support (Windows, Mac, Linux..)
+* Reliable to check for power outages.
+* Great portforwarding testing tool.
+* Change listening port with '-p {port}' (-p 42) in arguments.
+* Shows which global IP pinged (Can be turned off with ' -d false '.
+* Created in C# with .NET Framework 4.7.2
