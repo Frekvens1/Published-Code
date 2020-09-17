@@ -1,6 +1,6 @@
 ![IsAlive Logo](https://raw.githubusercontent.com/Frekvens1/Published-Code/master/IsAlive/IsAlive.png)
 
-Simple software which accepts TCP pings. Adjustable port, default 42.\ 
+Simple software which accepts TCP pings. Adjustable port, default 42.<br> 
 Displays which global IP initiated ping with timestamp (Local shows router IP).
 
 Interesting facts:
