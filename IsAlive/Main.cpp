@@ -27,7 +27,14 @@ namespace IsAlive
                 switch (mode)
                 {
                     case 1:
-                        port = int.Parse(arg);
+                        try
+                        {
+                            port = int.Parse(arg);
+                        } catch (FormatException) {
+                            Console.WriteLine("[FATAL ERROR] Port must be a number!");
+                            Exit();
+                        }
+                        
                         break;
 
                     case 2:
@@ -42,7 +49,7 @@ namespace IsAlive
                         break;
 
                     case "-d": // Display
-                        mode = 1;
+                        mode = 2;
                         break;
 
                     default:
@@ -73,10 +80,16 @@ namespace IsAlive
                 client.Dispose();
             }
         }
-
-        public static string GetTimestamp(DateTime value)
+        private static string GetTimestamp(DateTime value)
         {
             return value.ToString("dd.MM.yyyy : HH:mm:ss");
+        }
+
+        private static void Exit()
+        {
+            Console.WriteLine("\nPRESS A BUTTON TO EXIT");
+            Console.ReadKey(true);
+            Environment.Exit(1);
         }
     }
 }
