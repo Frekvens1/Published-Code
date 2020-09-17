@@ -2,6 +2,9 @@
 
 Simple software which accepts TCP pings. Adjustable port, default 42.<br> 
 Displays which global IP initiated ping with timestamp (Local shows as router IP).<br>
+
+## [Download](https://raw.githubusercontent.com/Frekvens1/Published-Code/master/IsAlive/IsAlive.exe) (247kB) | [Code](https://github.com/Frekvens1/Published-Code/blob/master/IsAlive/Main.cpp)
+
 <br>
 ### Interesting facts:
 * Console based.
