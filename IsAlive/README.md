@@ -10,6 +10,6 @@ Displays which global IP initiated ping with timestamp (Local shows as router IP
 * Runs on all platforms with .NET support (Windows, Mac, Linux..)
 * Reliable to check for power outages.
 * Great portforwarding testing tool.
-* Change listening port with '-p 42' in arguments.
+* Change listening port with '-p {port}' in arguments.
 * Shows which global IP pinged (Can be turned off with '-d false'.
 * Created in C# with .NET Framework 4.7.2
